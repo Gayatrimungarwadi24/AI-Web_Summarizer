@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>AI Summarizer</h2>
+  
+  <label for="format-select">Format:</label>
+  <select id="format-select">
+    <option value="detailed">Detailed</option>
+    <option value="short">Short Paragraph</option>
+    <option value="bullet">Bullet Points</option>
+  </select>
+  
+  <button id="summarize-btn">Summarize Page</button>
+  
+  <div id="loading" style="display: none;">🤖 Gemma is reading...</div>
+  <div id="result"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

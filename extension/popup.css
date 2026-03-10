@@ -1,0 +1,38 @@
+body {
+    width: 320px;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+}
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 0;
+}
+select, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#loading {
+    margin-top: 15px;
+    color: #666;
+    font-style: italic;
+}
+#result {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222;
+    white-space: pre-wrap; 
+}
