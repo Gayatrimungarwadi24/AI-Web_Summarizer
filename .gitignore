@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Node/extension artifacts
+node_modules/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+
+# Editor/OS
+.vscode/
+.idea/
+*.log
